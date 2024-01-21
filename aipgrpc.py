@@ -3,8 +3,8 @@ from requests.auth import HTTPBasicAuth
 import base64
 import json
 
-class Ravencoin:
-    def __init__(self, username, password, host='localhost', port=8766):
+class Aipowergrid:
+    def __init__(self, username, password, host='localhost', port=9788):
         self.username = username
         self.password = password 
         self.host = host
