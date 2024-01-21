@@ -1,15 +1,15 @@
 from distutils.core import setup
 setup(
-  name = 'ravenrpc',         
-  packages = ['ravenrpc'],   
+  name = 'aipgrpc',         
+  packages = ['aipgrpc'],   
   version = '0.1',      
   license='MIT',     
-  description = 'Crazy simple Ravencoin RPC library',
-  author = 'JonPizza',
-  author_email = 'jon@jon.network',
-  url = 'https://jon.network',
-  download_url = 'https://github.com/JonPizza/ravenrpc/archive/v_01.tar.gz',
-  keywords = ['Ravencoin', 'RPC'], 
+  description = 'Crazy simple AI Power Grid RPC library',
+  author = 'JonPizza and Alpha',
+  author_email = 'jon@jon.network and rvnminers@gmail.com',
+  url = 'https://jon.network and https://cyrpticwizardry.com',
+  download_url = 'https://github.com/rvnminers-A-and-N/aipgrpc/archive/v_01.tar.gz',
+  keywords = ['AIPG', 'RPC'], 
   install_requires=[
           'requests'
       ],
