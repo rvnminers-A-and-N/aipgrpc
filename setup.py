@@ -1,15 +1,15 @@
 from distutils.core import setup
 setup(
-  name = 'aipgrpc',         
-  packages = ['aipgrpc'],   
-  version = '0.1',      
+  name = 'evrmorerpc',         
+  packages = ['evrmorerpc'],   
+  version = '0.2',      
   license='MIT',     
   description = 'Crazy simple AI Power Grid RPC library',
   author = 'JonPizza and Alpha',
   author_email = 'jon@jon.network and rvnminers@gmail.com',
   url = 'https://jon.network and https://cyrpticwizardry.com',
-  download_url = 'https://github.com/rvnminers-A-and-N/aipgrpc/archive/refs/tags/v0.1.tar.gz',
-  keywords = ['AIPG', 'RPC'], 
+  download_url = 'https://github.com/rvnminers-A-and-N/aipgrpc/archive/refs/tags/v0.2.tar.gz',
+  keywords = ['EVR', 'RPC'],
   install_requires=[
           'requests'
       ],
