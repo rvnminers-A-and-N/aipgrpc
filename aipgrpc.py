@@ -3,8 +3,8 @@ from requests.auth import HTTPBasicAuth
 import base64
 import json
 
-class Aipowergrid:
-    def __init__(self, username, password, host='localhost', port=9788):
+class Evrmore:
+    def __init__(self, username, password, host='localhost', port=8819):
         self.username = username
         self.password = password 
         self.host = host
